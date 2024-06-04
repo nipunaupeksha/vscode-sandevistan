@@ -1,0 +1,21 @@
+{
+  "name": "sandevistan",
+  "displayName": "sandevistan",
+  "description": "A cyberpunk, dark-purple theme for VS Code based on Ayu Mirage theme",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "sandevistan",
+        "uiTheme": "vs-dark",
+        "path": "./themes/sandevistan-color-theme.json"
+      }
+    ]
+  }
+}
