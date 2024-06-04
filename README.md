@@ -1,17 +1,71 @@
-# sandevistan README
+<p align="center">
+  <img alt="Sandevistan Logo" src="https://raw.githubusercontent.com/nipunaupeksha/vscode-sandevistan/master/images/logo.png" width="100" />
+</p>
+<h1 align="center">
+  Sandevistan Theme for VS Code
+</h1>
+<p align="center">
+  A Cyberpunk, dark-purple theme for VS Code.
+</p>
 
-## Working with Markdown
+![demo](https://raw.githubusercontent.com/nipunaupeksha/vscode-sandevistan/master/images/demo.png)
 
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
+## Installation via VS Code
 
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
+1. Open **Extensions** sidebar panel in VS Code. `View → Extensions`
+2. Search for `Sandevistan`
+3. Click **Install** to install it
+4. Click **Reload** to reload the editor
+5. Code > Preferences > Color Theme > **Sandevistan**
 
-## For more information
+## Icon Theme
 
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
+The file icon theme seen in the screenshot above is [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme) with these settings:
 
-**Enjoy!**
-# vscode-sandevistan
+```json
+  "material-icon-theme.folders.color": "#8695b7",
+  "material-icon-theme.folders.theme": "specific",
+  "material-icon-theme.hidesExplorerArrows": true,
+```
+
+## Color Reference
+
+### Syntax Colors
+
+|                               Color                                | Usage                                           |
+| :----------------------------------------------------------------: | ----------------------------------------------- |
+| ![#c3a6ff](https://via.placeholder.com/10/c3a6ff?text=+) `#c3a6ff` | Keywords, constants, template literals          |
+| ![#ffd580](https://via.placeholder.com/10/ffd580?text=+) `#ffd580` | Functions, classes, object literal keys         |
+| ![#ffae57](https://via.placeholder.com/10/ffae57?text=+) `#ffae57` | Constants, operators                            |
+| ![#bae67e](https://via.placeholder.com/10/bae67e?text=+) `#bae67e` | Strings, markdown headings                      |
+| ![#5ccfe6](https://via.placeholder.com/10/5ccfe6?text=+) `#5ccfe6` | Special keywords, classes, markdown code blocks |
+| ![#a2aabc](https://via.placeholder.com/10/a2aabc?text=+) `#a2aabc` | Variables, property names, tags                 |
+
+### UI Colors
+
+|                               Color                                | Usage                                      |
+| :----------------------------------------------------------------: | ------------------------------------------ |
+| ![#171c28](https://via.placeholder.com/10/171c28?text=+) `#171c28` | Workbench background                       |
+| ![#1d2433](https://via.placeholder.com/10/1d2433?text=+) `#1d2433` | Editor background                          |
+| ![#2f3b54](https://via.placeholder.com/10/2f3b54?text=+) `#2f3b54` | Highlight, widgets, panels                 |
+| ![#6679a4](https://via.placeholder.com/10/6679a4?text=+) `#6679a4` | Dividers, subtle UI elements               |
+| ![#a080e1](https://via.placeholder.com/10/a080e1?text=+) `#a080e1` | Status bar text, buttons, etc              |
+| ![#d7dce2](https://via.placeholder.com/10/d7dce2?text=+) `#d7dce2` | Active text, anything that should be white |
+| ![#e5ccf4](https://via.placeholder.com/10/e5ccf4?text=+) `#e5ccf4` | Accent, list tree titles, badges, etc      |
+| ![#bae67e](https://via.placeholder.com/10/bae67e?text=+) `#bae67e` | Addition highlights                        |
+| ![#ef6b73](https://via.placeholder.com/10/ef6b73?text=+) `#ef6b73` | Deletion highlights, errors, warnings      |
+| ![#bac7fb](https://via.placeholder.com/10/bac7fb?text=+) `#bac7fb` | Modified highlights                        |
+
+## Theming Reference
+
+[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
+
+[VS Code Theme Documentation](https://code.visualstudio.com/docs/extensions/themes-snippets-colorizers)
+
+[VS Code Publishing Extensions](https://code.visualstudio.com/docs/extensions/publish-extension)
+
+Syntax & Workbench colors based on [Ayu Mirage Theme](https://github.com/teabyii/vscode-ayu)
+
+```bash
+vsce publish patch/minor/major
+```

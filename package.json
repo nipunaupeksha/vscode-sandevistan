@@ -3,6 +3,32 @@
   "displayName": "sandevistan",
   "description": "A cyberpunk, dark-purple theme for VS Code based on Ayu Mirage theme",
   "version": "0.0.1",
+  "publisher": "nipunaupeksha",
+  "icon": "images/logo.png",
+  "author": {
+    "name": "Nipuna Upeksha",
+    "email": "nipuna.upeksha@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nipunaupeksha/vscode-sandevistan"
+  },
+  "bugs": {
+    "url": "https://github.com/nipunaupeksha/vscode-sandevistan/issues",
+    "email": "nipuna.upeksha@gmail.com"
+  },
+  "homepage": "https://github.com/nipunaupeksha/vscode-sandevistan/blob/master/README.md",
+  "galleryBanner": {
+    "color": "#171c28",
+    "theme": "dark"
+  },
+  "keywords": [
+    "Themes",
+    "Dark Theme",
+    "color-theme",
+    "Sandevistan",
+    "Cyberpunk"
+  ],
   "engines": {
     "vscode": "^1.89.0"
   },
